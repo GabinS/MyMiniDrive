@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <h1>My Files</h1>
-  </div>
+  <v-row align="center">
+    <h1>Mes Documents</h1>
+    <div>
+      <v-btn color="primary" outlined>button</v-btn>
+    </div>
+  </v-row>
 </template>
 
 <script>
