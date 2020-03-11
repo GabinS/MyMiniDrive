@@ -7,11 +7,17 @@ const routes = [
   {
     path: '/',
     name: 'Home',
+    meta: {
+      title: 'My Mini Drive Accueil'
+    },
     component: () => import('@/views/Home.vue')
   },
   {
     path: '/my-files',
     name: 'MyFiles',
+    meta: {
+      title: 'My Mini Drive Mes Documents'
+    },
     component: () => import('@/views/MyFiles.vue')
   }
 ]
