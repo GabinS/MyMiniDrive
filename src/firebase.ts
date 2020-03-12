@@ -12,3 +12,5 @@ const firebaseApp = Firebase.initializeApp({
 
 // Export the database for components to use.
 export const db = firebaseApp.database()
+export const foldersRef = db.ref('folders')
+export const filesRef = db.ref('files')

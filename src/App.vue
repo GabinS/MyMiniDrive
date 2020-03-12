@@ -5,9 +5,8 @@
       <v-tab><router-link :to="{name: 'Home'}">Accueil</router-link></v-tab>
       <v-tab><router-link :to="{name: 'MyFiles'}">Mes Documents</router-link></v-tab>
     </v-tabs> -->
-    <v-bottom-navigation
-      v-model="bottomNav"
-    >
+    <v-bottom-navigation>
+
       <v-btn value="recent">
         <router-link :to="{name: 'Home'}">
           <v-icon>mdi-home</v-icon>
